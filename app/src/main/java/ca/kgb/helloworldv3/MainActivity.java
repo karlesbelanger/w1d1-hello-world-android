@@ -19,4 +19,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, LinearActivity.class);
         startActivity(intent);
     }
+    public void doMagic1(View view) {
+        System.out.println("Hello world!!");
+
+        Intent intent = new Intent(this, FrameActivity.class);
+        startActivity(intent);
+    }
 }

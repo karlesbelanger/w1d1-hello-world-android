@@ -16,6 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".LinearActivity"></activity>
+        <activity android:name=".FrameActivity"></activity>
     </application>
 
 </manifest>
